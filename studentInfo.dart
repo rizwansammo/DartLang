@@ -10,4 +10,10 @@ void main() {
   print('Age: $age');
   print('Height: $height');
   print('Is Student: $isStudent');
+
+  if (age > 18) {
+    print('$name is an adult.');
+  } else {
+    print('$name is not an adult.');
+  }
 }
